@@ -1,0 +1,13 @@
+#ifndef _IEvent_H_
+#define _IEVent_H_
+
+class IEvent
+{
+public:
+    IEvent() = default;
+    virtual ~IEvent() = default;
+    virtual void execute() = 0;
+}
+
+
+#endif
